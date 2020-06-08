@@ -5,8 +5,7 @@
     "start": "next start",
     "static": "next build && next export && touch ./out/.nojekyll && echo '1313labs.com' > ./out/CNAME",
     "serve-static": "serve out",
-    "deploy": "yarn static && gh-pages -d out -t true",
-    "update-data": "cd crawler && poetry install && poetry run update-data"
+    "deploy": "yarn static && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "^9.4.1",
