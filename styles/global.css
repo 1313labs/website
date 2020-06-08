@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+
+html,
+body {
+  @apply text-gray-900 antialiased;
+
+  font-family: Inter, Arial, sans-serif;
+}
+
+@import "tailwindcss/components";
+
+.container {
+  max-width: 900px;
+}
+
+.link {
+  color: #007bff;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@import "tailwindcss/utilities";
+
+.custom-shape-divider-bottom-1591633768 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
