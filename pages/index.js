@@ -2,16 +2,16 @@ import React from "react";
 
 const HomePage = () => (
   <main className="container mx-auto">
-    <header className="text-center p-5 mt-16">
-      <img src="/1313labs.svg" />
+    <header>
+      <img src="/1313labs.svg" className="logo" />
     </header>
 
     <footer className="footer">
       <div className="peeps">
-        <img src="/sasse.svg" />
-        <img src="/ze.svg" />
-        <img src="/bordi.svg" />
-        <img src="/feijo.svg" />
+        <div className="peep peep-sasse" />
+        <div className="peep peep-ze" />
+        <div className="peep peep-bordi" />
+        <div className="peep peep-feijo" />
       </div>
     </footer>
   </main>

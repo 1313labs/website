@@ -32,6 +32,11 @@ body {
 
 @import "tailwindcss/utilities";
 
+.logo {
+  margin: 0 auto;
+  padding: 20% 10%;
+}
+
 .footer {
   position: absolute;
   width: 100%;
@@ -40,8 +45,25 @@ body {
 
 .peeps {
   display: flex;
+  justify-content: space-around;
 }
 
-.peeps img {
-  width: 25%;
+.peep {
+  width: 20%;
+  padding-top: 20%;
+
+  background-size: 100%;
+}
+
+.peep.peep-sasse {
+  background-image: url("/sasse.svg");
+}
+.peep.peep-ze {
+  background-image: url("/ze.svg");
+}
+.peep.peep-bordi {
+  background-image: url("/bordi.svg");
+}
+.peep.peep-feijo {
+  background-image: url("/feijo.svg");
 }
