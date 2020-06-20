@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => (
   <main className="container mx-auto">
-    <header>
+    <header className="header">
       <img src="/1313labs.svg" className="logo" />
     </header>
 
