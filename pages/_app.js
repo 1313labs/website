@@ -19,7 +19,7 @@ export default class CustomApp extends App {
 
           {HeadMetas({
             title: "1313labs",
-            description: "Crafting products",
+            description: "Crafting experiences",
           })}
 
           <link rel="canonical" href="https://1313labs.com/" />
@@ -34,9 +34,9 @@ export default class CustomApp extends App {
           <link rel="icon" type="image/png" sizes="32x32" href="/github.png" />
 
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700&display=swap"
             rel="stylesheet"
-          ></link>
+          />
 
           <script async defer data-domain="1313labs.com" src="https://plausible.io/js/plausible.js"></script>
         </Head>
